@@ -8,8 +8,31 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int a;
+int h;
+int result;
+
+int main() {
+    
+        std::cout << "Program do obliczania pola figury Trójkąta\n";
+        std::cout << "Podaj wartosć a: ";
+        std::cin >> a;
+        std::cout << "Podaj wartość dla h: ";
+        std::cin >> h;
+    
+    if(a > 0 and h > 0){
+        result = (a * h)/ 2;
+        std::cout << "Pole powrzchni trójkąta to: ";
+        std::cout << result;
+    }else{
+        std::cout << " Wartości muszą być dodatnie";
+    }
+           
+           
+
+        
+
+    
+   
+    
 }
